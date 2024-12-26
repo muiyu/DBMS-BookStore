@@ -30,8 +30,8 @@ class Book:
 class BookDB:
     def __init__(self, large: bool = False):
         parent_path = os.path.dirname(os.path.dirname(__file__))
-        self.db_s = os.path.join(parent_path, "data/book.db")
-        self.db_l = os.path.join(parent_path, "data/book_lx.db")
+        self.db_s = os.path.join(parent_path, "/root/course-lab/Con-DataM-Sys/DBMS-BookStore/book.db")
+        self.db_l = os.path.join(parent_path, "/root/course-lab/Con-DataM-Sys/DBMS-BookStore/book_lx.db")
         if large:
             self.book_db = self.db_l
         else:
