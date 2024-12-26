@@ -143,7 +143,7 @@ class User(db_conn.DBConn):
         self, title: str = '', content: str = '', tag: str = '', store_id: str = ''
     ) -> Tuple[int, str]:
         try:
-            book_db = "/root/course-lab/Con-DataM-Sys/Bookstore2/fe/data/book.db"
+            book_db = "/root/course-lab/Con-DataM-Sys/DBMS-BookStore/book.db"
             query_conditions = []
             query_parameters = []
 
